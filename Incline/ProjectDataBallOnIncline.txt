@@ -1,0 +1,46 @@
+Distances on rail
+ExperimenterName, start(cm), start_error(cm), gate1(cm), gate1_error(cm), gate2(cm), gate2_error(cm), gate3(cm), gate3_error(cm), gate4(cm), gate4_error(cm), gate5(cm), gate5_error(cm)
+P, 98.4 , 0.1 , 98.3 , 0.1 , 75.4 , 0.1 , 53.3 , 0.1 , 30.9 , 0.1 , 14.2 , 0.1
+A, 98.50, 0.05, 93.35, 0.05, 75.45, 0.05, 53.30, 0.05, 30.95, 0.05, 14.15, 0.05
+S, 98.44, 0.05, 93.32, 0.05, 75.45, 0.05, 53.25, 0.05, 30.90, 0.05, 14.70, 0.05
+N, 98.40, 0.05, 93.3 , 0.1 , 75.4 , 0.1 , 53.3 , 0.1 , 30.9 , 0.1 , 14.1 , 0.1
+
+
+Angle measurements for height 1 (greatest height)
+
+All measurements with goniometer should have 90 degrees substracted
+Variable names explained: S = setup, G = gionometer, N = normal position, F = flipped position
+ExperimenterName, SNGN, SNGN_error, SNGF, SNGF_error, SFGN, SFGN_error, SFGF, SFGF_error
+P, 105.5, 0.2, 105.9 , 0.2 , 104.9 , 0.1 , 105.5 , 0.1
+A, 105.5, 0.2, 105.10, 0.25, 104.90, 0.25, 105.00, 0.25
+S, 105.6, 0.1, 105.9 , 0.1 , 104.8 , 0.1 , 105.05, 0.05
+N, 105.4, 0.2, 105.8 , 0.2 , 104.7 , 0.2 , 105.1 , 0.1
+
+Note: we assume a right angle in our triangle, but we observed that it was not a very close to a right angle.
+ExperimenterName, h_a(mm), h_a_error(mm), h_b(mm), h_b_error(mm), l(mm), l_error(mm)
+P, 278.5, 0.5, 31, 1, 926  , 1
+A, 278.0, 0.1,   ,  , 927.0, 0.5
+N, 278.5, 0.5, 31, 1, 926  , 1
+
+
+Angle measurements for height 2 (lowest height)
+
+All measurements with goniometer should have 90 degrees substracted
+Variable names explained: S = setup, G = gionometer, N = normal position, F = flipped position
+Note: no errors on SetupFlipped
+ExperimenterName, SNGN, SNGN_error, SNGF, SNGF_error, SFGN, SFGF
+P, 95.6, 0.1, 95.2, 0.1, 95, 96
+
+Use l from height 1 measurements
+ExperimenterName, h_a(mm), h_a_error(mm), h_b(mm), h_b_error(mm)
+?, 11.20, 0.02, 3.14, 0.02
+
+
+Measurements of remaining experiment parameters
+ExperimenterName, D_ball(mm), D_ball_error(mm), D_rail(mm), D_rail_error(mm), width_rail(mm), width_rail_error(mm)
+P, 1.27, 0.01, 0.62, 0.02, 0.72, 0.02
+A,     ,     , 0.61, 0.02, 0.71, 0.02
+N, 1.27, 0.01,     ,     ,     ,
+
+
+Note: we also did free fall experiments where we assume the angle to be 90 degrees
